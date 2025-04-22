@@ -1,3 +1,3 @@
 SELECT * 
 FROM products 
-WHERE unit_price IS NOT NULL
+WHERE name REGEXP '^b' AND unit_price IS NULL   

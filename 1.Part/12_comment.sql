@@ -1,0 +1,2 @@
+-- SELECT * FROM  products 
+-- ba (--) comment mikonan

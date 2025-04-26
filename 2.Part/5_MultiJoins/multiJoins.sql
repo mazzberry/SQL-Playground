@@ -1,4 +1,6 @@
 SELECT *
-FROM store.comments cm
-JOIN customers c ON c.customer_id = cm.customer_id
-JOIN orders o ON o.order_id = cm.product_id
+FROM store.comments c
+JOIN products p  ON c.product_id = p.product_id
+JOIN customers cu ON c.customer_id = cu.customer_id
+
+

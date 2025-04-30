@@ -15,4 +15,4 @@ LEFT JOIN comments c ON c.product_id = p.product_id
 ORDER BY p.product_id 
 
 
--- i wanna see everything in the table even if there is no comment for the product
+-- i wanna see everything in the table even if there is no comment for the product.
